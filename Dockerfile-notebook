@@ -1,0 +1,7 @@
+FROM manyangled/openshift-jupyter-scala:latest
+
+# Data
+COPY tox21/* /data/tox21/
+
+# Notebook
+COPY FeatureReduction.ipynb /notebooks/

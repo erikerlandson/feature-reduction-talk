@@ -1,0 +1,4 @@
+FROM radanalyticsio/openshift-spark
+
+# Data
+COPY tox21/* /data/tox21/
